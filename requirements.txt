@@ -1,0 +1,8 @@
+dlib
+python==3.6
+opencv-python==4.5.3.56
+flask
+conda install -c conda-forge dlib
+conda create -n mini python==3.6 -c conda-forge -y
+conda clean --all -y
+pip install Jinja2==2.11.3  # You can try with a different version if needed
